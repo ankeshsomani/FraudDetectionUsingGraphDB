@@ -1,0 +1,48 @@
+--Get all nodes
+MATCH (n) RETURN n LIMIT 800
+
+--Delete all nodes and relationships
+MATCH ()-[r]-() delete r;
+MATCH (n) delete n;
+
+	
+--List all customers
+MATCH(c:CUSTOMER) return c;
+
+--Get a customer with some name
+MATCH (c:CUSTOMER { name: "Michael Moody" })
+RETURN c
+	
+	
+--Customers sharing same phone number
+MATCH(c:CUSTOMER)-[r:HAS_PHONE_NO]-(p:PHONENUMBER)
+WITH p,count(r) as relations,collect(c.name) as customers
+WHERE relations>1
+RETURN p,relations,customers;
+	
+--Customers having account in same bank
+MATCH(c:CUSTOMER)-[r:HAS_ACCOUNT_IN]-(p:BANK_NAME)
+WITH p,count(r) as relations,collect(c.name) as customers
+WHERE relations>1
+RETURN p,relations,customers;
+	
+--Customers working for same employer
+MATCH(c:CUSTOMER)-[r:WORKS_FOR]-(p:EMPLOYER)
+WITH p,count(r) as relations,collect(c.name) as customers
+WHERE relations>1
+RETURN p,relations,customers;
+	
+	
+--Important query to find customers sharing attributes
+MATCH (cust:CUSTOMER)-[]->(contactInformation)
+WITH contactInformation,
+count(cust) AS RingSize
+MATCH (contactInformation)<-[]-(cust)
+WITH collect(cust.name) AS customers,
+contactInformation, RingSize
+WHERE RingSize > 1
+RETURN customers AS FraudRing,
+labels(contactInformation) AS ContactType,
+RingSize
+ORDER BY RingSize DESC
+

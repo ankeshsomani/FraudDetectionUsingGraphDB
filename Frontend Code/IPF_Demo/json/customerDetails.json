@@ -1,0 +1,77 @@
+
+  [
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "RAM SHARMA",
+      "suspicionReason": "PHONENUMBER-(ANKESH SOMANI,ANIL SHARMA),EMPLOYER-(ANKESH SOMANI)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "ANKESH SOMANI",
+      "suspicionReason": "PHONENUMBER-(RAM SHARMA),EMPLOYER-(RAM SHARMA)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "VINIT KUMAR",
+      "suspicionReason": "PHONENUMBER-(ANKESH SOMANI,ANIL SHARMA),EMPLOYER-(ANKESH SOMANI)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "PALWI SETH",
+      "suspicionReason": "PHONENUMBER-(RAM SHARMA),EMPLOYER-(RAM SHARMA)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "RAKESH PATIL",
+      "suspicionReason": "PHONENUMBER-(ANKESH SOMANI,ANIL SHARMA),EMPLOYER-(ANKESH SOMANI)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "SUMIT KUMAR",
+      "suspicionReason": "PHONENUMBER-(RAM SHARMA),EMPLOYER-(RAM SHARMA)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "RAM SHARMA",
+      "suspicionReason": "PHONENUMBER-(ANKESH SOMANI,ANIL SHARMA),EMPLOYER-(ANKESH SOMANI)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "ANKESH SOMANI",
+      "suspicionReason": "PHONENUMBER-(RAM SHARMA),EMPLOYER-(RAM SHARMA)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "RAM SHARMA",
+      "suspicionReason": "PHONENUMBER-(ANKESH SOMANI,ANIL SHARMA),EMPLOYER-(ANKESH SOMANI)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "AMIT SRIVASTAVA",
+      "suspicionReason": "PHONENUMBER-(RAM SHARMA),EMPLOYER-(RAM SHARMA)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "NILESH PATIL",
+      "suspicionReason": "PHONENUMBER-(ANKESH SOMANI,ANIL SHARMA),EMPLOYER-(ANKESH SOMANI)"
+    },
+    {
+      "overallSuspicionIndex": 0.25,
+      "customerId": null,
+      "customerName": "PRADEEP SINGH",
+      "suspicionReason": "PHONENUMBER-(RAM SHARMA),EMPLOYER-(RAM SHARMA)"
+    }
+  ]
+  
+

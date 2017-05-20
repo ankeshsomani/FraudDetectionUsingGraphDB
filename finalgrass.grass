@@ -1,0 +1,297 @@
+node {
+  diameter: 50px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+}
+
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: '<type>';
+}
+
+node.Person {
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.Movie {
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  caption: '{title}';
+}
+
+node.MOVIE {
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.USER {
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.CUSTOMER {
+  color: #FB95AF;
+  border-color: #E0849B;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+  diameter: 65px;
+}
+
+node.PHONENUMBER {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+}
+
+node.EMPLOYER {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.BANKACCOUNT {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.ADDRESS {
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.EMAILADDR {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.POSTCODE {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{postcode}';
+}
+
+node.BANK {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{bankName}';
+}
+
+node.PIN {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{pin}';
+}
+
+node.BANK_ACCOUNT_NO {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{bankAccountNumber}';
+}
+
+node.BANK_NAME {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.EMPLOYEE {
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.ACCOUNT {
+  color: #FB95AF;
+  border-color: #E0849B;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.SUBLOCATION {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+relationship.WORKED_FOR {
+  caption: '<type>';
+  shaft-width: 3px;
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+}
+
+relationship.WORKED_AT {
+  shaft-width: 3px;
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+}
+
+relationship.STAYS_AT {
+  shaft-width: 3px;
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+}
+
+relationship.HAS_PHONE_NO {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  shaft-width: 3px;
+}
+
+node.BIG_DATA {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.LOCATION {
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.PROJECT {
+  color: #FB95AF;
+  border-color: #E0849B;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.JAVA {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.TECHNICAL {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.BEHAVIORAL {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.CERTIFICATION {
+  color: #E55A95;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.SOCIAL_WORK {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.FOUR_WHEELER {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.TWO_WHEELER {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.SOFTWARE_DEV {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.PROJECT_MANAGER {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.PROJECT_MGT {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.TECHNOLOGY {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+}
+
+node.STAFF {
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+}
+
+node.VEHICLE {
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+}
+
+node.TRAINING {
+  color: #5AD9E5;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+}
+
+node.INTEREST {
+  caption: '{name}';
+  color: #E5C85A;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+}
+
